@@ -163,3 +163,20 @@ section {
     
     margin-bottom: 55px;
 }
+
+.padding {
+    margin: 40px;
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+    background-color: #00AFF0;
+    padding:20px;
+    max-width: 10vw;
+    max-height: 3vh;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
