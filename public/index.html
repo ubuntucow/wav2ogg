@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Instantly convert a WAV file into an OGG file with this free converter.">
+    <title>WAV to OGG File Converter (Quick & Free)</title>
+    <link rel="stylesheet" href="https://use.typekit.net/vgi3vot.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./icon.png" type="image/png">
+  
+</head>
+<body>
+   <header>
+    <h1>Convert WAV to OGG</h1>
+   </header>
+    <main>
+        <section>   <h2 class="title">Upload a file then click convert</h2>
+
+       <div id="dropContainer">
+            <span id="state">Drop Here or Click to upload</span>
+    </div>
+    <div class="buttons">
+        <input type="file" id="upload" accept=".wav" />
+    <button id="convert" class="button" >Convert to OGG</button>
+    </div>  
+    <div class="wrapper"><a id="download" class="" style="display: none;">Download OGG</a></div>
+</section>
+     <!-- <hr/> -->
+    <div class="explanation">
+        <h2>Frequently asked questions</h2>
+        <br/>
+        <h3>
+            What are WAV files?
+        </h3>
+        <p>
+            Waveform Audio Files (WAVs) were created by Microsoft and IBM in 1991. WAVs are useful because they are uncompressed so they have great audio quality. However WAVs have a few disadvantages.
+            Not only is the file size quite large compared to other formats, the WAV format is proprietary.
+            
+        </p>
+        <br />
+        <h3>What are OGG files?</h3>
+        <p>
+            Ogg Vorbis Files (OGGs) are an open source alternative to WAV files.
+            OGGs are much smaller in size whilst still maintaining most of the quality. Additionally support for OGG files has become extremely common in the past few years.
+            They're very convenient for a variety of use cases because of their small file size.
+
+        </p>
+        <br/>
+        <h3>How do I open WAV files?</h3>
+        <p>
+            Most operating systems have out of the box support for WAV. Simply double click a WAV file and it will open up in your default media player.
+        </p>
+        <br/>
+        <h3>How do I open OGG files?</h3>
+        <p>
+            OGG files are also supported by nearly every operating system by default. Double click on a WAV file to listen to it in your default media player.
+        </p>
+        <br/>
+        <h3>What does this converter do?</h3>
+        <p>
+            This converter turns WAV files (Waveform Audio Files) into OGG (Ogg Vorbis) files, whilst preserving as much quality as possible. 
+       Simply upload a file by either using the file upload button or dragging and dropping a file into the dropzone. After that click convert. It will automatically download your file.
+    </p>
+    <br/>
+    <a href="./privacy-policy.html">Our privacy policy</a> 
+    </div>
+    
+
+    </main>
+    <!-- <footer>
+        
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.10.0/dist/ffmpeg.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
