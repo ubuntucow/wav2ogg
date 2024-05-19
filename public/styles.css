@@ -26,8 +26,9 @@ h1{
 }
 
 .buttons{
-    margin-top: 10vh;
+    /* margin-top: 3vh; */
     text-align: center;
+    margin-bottom: 5vh;
 }
 
 
@@ -81,7 +82,7 @@ main {
 
 section {
     text-align: center;
-    
+    margin-bottom: 17vh;
 }
 
 
@@ -131,6 +132,7 @@ section {
     display: grid;
     place-items: center;
     margin: 10px;
+    /* background-color: orange; */
 }
 
 .explanation p{
